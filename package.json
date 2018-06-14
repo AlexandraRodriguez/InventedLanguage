@@ -1,0 +1,30 @@
+{
+  "name": "jstranslator",
+  "version": "0.1.0",
+  "description": "Traductor a idioma inventado",
+  "main": "dist/src/translator.js",
+  "scripts": {
+    "build": "babel src/translator.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandraRodriguez/InventedLanguage.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "basic"
+  ],
+  "author": "Alexandra Rodriguez <ale.tunn9095@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexandraRodriguez/InventedLanguage/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
